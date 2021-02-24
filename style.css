@@ -8,6 +8,13 @@ body {
   #site-header {
     display: none;
   }
+  #banner-area-wrapper {
+    display: none;
+  }
+
+  #extra-wrapper page-header {
+    display: none;
+  }
 }
 @media (min-width: 550px) {
   #background1 {
