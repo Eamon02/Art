@@ -4,6 +4,16 @@ body {
   height: 100%;
   width: 100%;
 }
+@media only screen and (max-width: 767px) {
+  #site-header {
+    display: none;
+  }
+}
+@media (min-width: 550px) {
+  #background1 {
+    transform: rotate(90deg);
+  }
+}
 .page1 {
   /* position: relative; */
   height: 100%;
@@ -25,7 +35,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
-  height: 30%;
-  width: 80%;
+  transform: translate(-50%, -50%);
+  height: 50%;
+  width: 60%;
 }
