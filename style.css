@@ -1,39 +1,42 @@
 body {
-  background-color: #06eaf3;
+  background: url(backgroundTexture.png);
   overflow: hidden;
-  height: 100%;
-  width: 100%;
-}
-@media only screen and (max-width: 767px) {
-  #site-header {
-    display: none;
-  }
-  #banner-area-wrapper {
-    display: none;
-  }
-
-  #extra-wrapper page-header {
-    display: none;
-  }
-}
-@media (min-width: 550px) {
-  #background1 {
-    transform: rotate(90deg);
-  }
-}
-.page1 {
-  /* position: relative; */
   height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
-#background1 {
+.page1 {
+  position: relative;
   height: 100%;
-  width: 100% !important;
-  /* position: relative; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
+
+@media screen and (orientation: portrait) {
+  #background1 {
+    height: 100%;
+    width: 100% !important;
+    /* position: relative; */
+  }
+}
+@media screen and (orientation: landscape) {
+  #background1 {
+    transform: rotate(-90deg);
+    height: 50% !important;
+    width: 50% !important;
+    /* left: 0% !important;
+    width: 50% !important; */
+    
+  }
+  
+}
+
 #mainCard {
   border-radius: 1%;
   background-color: #37abff;
@@ -45,4 +48,8 @@ body {
   transform: translate(-50%, -50%);
   height: 50%;
   width: 60%;
+}
+#name{
+  width: 100%;
+  height: auto;
 }

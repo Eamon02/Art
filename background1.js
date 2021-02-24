@@ -1,5 +1,5 @@
 // var animate = anime({
-//   targets: "#background1 path",
+//   targets: "",
 //   strokeDashoffset: [anime.setDashoffset, 0],
 //   easing: "easeInOutSine",
 //   duration: 50000,
