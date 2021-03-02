@@ -9,11 +9,11 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
-    <!-- Compiled and minified CSS -->
-    <link
+    <!-- Materialize CSS -->
+    <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
+    /> -->
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -24,10 +24,24 @@
 
     <link rel="stylesheet" href="style.css" />
 
-    <title>Document</title>
+    <title>Eamon McHugh's Portfolio</title>
   </head>
   <body>
-    <div id="nameGrid">
+    <nav>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#"></a>About</li>
+            <li><a href="#"></a>Contact</li>
+            <li><a href="#"></a>Projects</li>
+        </ul>
+    </nav>
+   
+    <div class="animation">
+    <div id="nameGrid" class="ladscape">
       <div class="sqr">Eamon McHugh, MBA</div>
       <div class="sqr">Eamon McHugh, MBA</div>
       <div class="sqr">Eamon McHugh, MBA</div>
@@ -40,8 +54,25 @@
       <div class="sqr">Eamon McHugh, MBA</div>
       <div class="sqr">Eamon McHugh, MBA</div>
       <div class="sqr">Eamon McHugh, MBA</div>
+      
     </div>
+    
 
+    <div id="nameGrid2" class="portrait">
+      <div class="sqr2">Eamon McHugh, MBA</div>
+      <div class="sqr2">Eamon McHugh, MBA</div>
+      <div class="sqr2">Eamon McHugh, MBA</div>
+      <div class="sqr2">Eamon McHugh, MBA</div>
+      <div class="sqr2">Eamon McHugh, MBA</div>
+      <div class="sqr2">Eamon McHugh, MBA</div>
+      <div class="sqr2">Eamon McHugh, MBA</div>
+      <div class="sqr2">Eamon McHugh, MBA</div>
+      <div class="sqr2">Eamon McHugh, MBA</div>
+      <div class="sqr2">Eamon McHugh, MBA</div>
+      <div class="sqr2">Eamon McHugh, MBA</div>
+      <div class="sqr2">Eamon McHugh, MBA</div>
+    </div>
+</div>
     <!-- letterize JS -->
     <script src="https://cdn.jsdelivr.net/npm/letterizejs/lib/letterize.min.js"></script>
 
@@ -66,6 +97,7 @@
     <script src="TweenMax.min.js"></script>
     <script src="parallax.js"></script>
     <script src="background1.js"></script>
-    <script src="grid.js"></script>
+    <script src="gridL.js"></script>
+    <script src="gridP.js"></script>
   </body>
 </html>

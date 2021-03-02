@@ -63,14 +63,15 @@ const text = new Letterize({
 function animation() { anime({
 targets: text.listAll,
 scale: [
-{value: .1, easing: 'easeOutSine', duration: 500},
+{value: .1, easing: 'easeOutSine', duration: 1200},
 {value: 1, easing: 'easeInOutQuad', duration: 1200}
 ],
-delay: anime.stagger(200, {grid: [text.list[0].length, text.list.length], from: 'center'}),
-loop: false
+delay: anime.stagger(300, {grid: [text.list[0].length, text.list.length], from: 'center'}),
+loop: true,
+endDelay: 5000,
 })};
 
-$(".sqr").on("click", animation);
+// $(".sqr").on("click", animation);
 $(window).on("load", animation);
 $(".sqr").on("mouseover", scaleAnimation);
 
