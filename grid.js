@@ -55,18 +55,18 @@
 //         });
 
 
-const test = new Letterize({
+const text = new Letterize({
     targets: ".sqr"
   });
 
 
 function animation() { anime({
-targets: test.listAll,
+targets: text.listAll,
 scale: [
 {value: .1, easing: 'easeOutSine', duration: 500},
 {value: 1, easing: 'easeInOutQuad', duration: 1200}
 ],
-delay: anime.stagger(200, {grid: [test.list[0].length, test.list.length], from: 'center'}),
+delay: anime.stagger(200, {grid: [text.list[0].length, text.list.length], from: 'center'}),
 loop: false
 })};
 
