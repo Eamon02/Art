@@ -67,7 +67,7 @@ body {
     }
     .nav-links{
         position: fixed;
-        background: blue;
+        background: rgba(255, 255, 255, 0.3);
         height: 100vh;
         width: 100%;
         flex-direction: column;
