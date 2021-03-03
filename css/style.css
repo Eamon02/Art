@@ -54,6 +54,10 @@ a {
 .nav-links li {
   cursor: pointer;
 }
+.nav-links li:hover, a:hover{
+  color: rgb(135, 102, 233);
+  transition: ease-in-out .5s;
+}
 .animation {
   display: flex;
   align-items: center;
