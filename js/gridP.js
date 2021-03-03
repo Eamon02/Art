@@ -1,3 +1,5 @@
+let potato = false
+
 const text2 = new Letterize({
     targets: ".sqr2"
   });
@@ -10,7 +12,7 @@ scale: [
 {value: 1, easing: 'easeInOutQuad', duration: 1200}
 ],
 delay: anime.stagger(200, {grid: [text2.list[0].length, text2.list.length], from: 'center'}),
-loop: true,
+loop: potato,
 endDelay: 5000,
 })};
 
