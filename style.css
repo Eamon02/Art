@@ -95,7 +95,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 6px;
     line-height: 1.2;
-    cursor: pointer;
+    pointer-events: none;
   }
   #nameGrid2{
     color: rgb(135, 102, 233);
@@ -103,7 +103,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 8px;
     line-height: 2;
-    cursor: pointer; 
+    pointer-events: none;
   }
 
   span {
