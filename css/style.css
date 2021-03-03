@@ -87,7 +87,7 @@ nav h1 {
     flex-direction: column;
     clip-path: circle(100px at 50% -20%);
     -webkit-clip-path: circle(100px at 50% -20%);
-    transition: all 1s ease-out;
+    transition: all .5s ease-out;
     pointer-events: none;
   }
   .nav-links.open {
