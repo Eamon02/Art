@@ -30,6 +30,7 @@ nav h1 {
   justify-content: space-around;
   align-items: center;
   cursor: pointer;
+  z-index: 3;
 }
 a {
   color: white;
@@ -56,7 +57,13 @@ a {
 }
 .nav-links li:hover, a:hover{
   color: rgb(135, 102, 233);
-  transition: ease-in-out .5s;
+  transition: ease-in-out .25s;
+}
+.active{
+  color: rgb(135, 102, 233);
+}
+.active:hover{
+  color: white;
 }
 .animation {
   display: flex;
@@ -92,9 +99,10 @@ a {
   }
   .nav-links {
     position: fixed;
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(34, 32, 32, 0.781);
     height: 100vh;
     width: 100%;
+    margin-bottom: 20%;
     flex-direction: column;
     clip-path: circle(100px at 50% -20%);
     -webkit-clip-path: circle(100px at 50% -20%);
