@@ -30,8 +30,11 @@ nav h1 {
   justify-content: space-around;
   align-items: center;
   cursor: pointer;
-  z-index: 3;
 }
+/* .nameTitle{
+  z-index: 3;
+} */
+
 a {
   color: white;
   text-decoration: none;

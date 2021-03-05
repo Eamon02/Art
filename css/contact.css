@@ -1,0 +1,39 @@
+@media (orientation: landscape) {
+  .contactInfo {
+    margin: 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    grid-template-areas: "img about";
+  }
+}
+
+@media (orientation: portrait) {
+  .contactInfo {
+    margin: 1%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "img" "about";
+  }
+}
+
+/* Global Rules */
+.row1{
+    display: flex;
+}
+.contactInfo img {
+    grid-area: img;
+  width: 100%;
+  height: 100%;
+}
+.fa-instagram, .fa-github { 
+    font-size: 4em;
+    margin: 2rem; 
+  }
+.about {
+    grid-area: about;
+    /* grid-column: 2/4; */
+    background: blue;
+    display: flex;
+}
