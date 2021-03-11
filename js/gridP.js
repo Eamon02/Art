@@ -1,4 +1,4 @@
-let potato = false
+let potato = true
 
 const text2 = new Letterize({
     targets: ".sqr2"
