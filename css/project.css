@@ -16,9 +16,16 @@
 
 /* Global Rules */
 .projects a {
-    margin: 5%;
+  padding: 2%; 
+  margin: 3%;
   }
+  .projects a:hover {
+    border: 1px solid rgb(135, 102, 233);
+    
+    }
+
   .projects img {
     width: 100%;
     height: 100%;
   }
+
