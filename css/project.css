@@ -1,31 +1,85 @@
 @media (orientation: landscape) {
-  .projects {
-    margin: 1%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+	.projects {
+		margin: 1%;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
 }
 
-@media (orientation: portrait){
-    .projects {
-        margin: 1%;
-        display: grid;
-        grid-template-columns: 1fr;
-      }
+@media (orientation: portrait) {
+	.projects {
+		margin: 1%;
+		display: grid;
+		grid-template-columns: 1fr;
+	}
 }
 
 /* Global Rules */
-.projects a {
-  padding: 2%; 
-  margin: 3%;
-  }
-  .projects a:hover {
-    border: 1px solid rgb(135, 102, 233);
-    
-    }
+.projects {
+	z-index: auto;
+}
+/* .projects a {
+	padding: 2%;
+	margin: 3%;
+}
+.projects a:hover {
+	border: 1px solid rgb(135, 102, 233);
+} */
 
-  .projects img {
-    width: 100%;
-    height: 100%;
-  }
+.projects img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
 
+.image {
+	position: relative;
+	padding: 5px;
+}
+
+.image img {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+.image-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.623);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: opacity 0.25s;
+}
+.image-overlay:hover {
+	opacity: 1;
+}
+
+/* Image overlay movement */
+.image-overlay > * {
+	transform: translateY(20px);
+	transition: transform 0.25s;
+}
+.image-overlay:hover > * {
+	transform: translateY(0);
+}
+
+.image-title {
+	font-size: 5rem;
+	color: rgb(135, 102, 233);
+	font-weight: bold;
+  text-align: center;
+}
+
+.image-description {
+	font-size: 1.25em;
+	margin-top: 0.25em;
+	text-align: center;
+	padding: 0px 20px 10px 20px;
+}
