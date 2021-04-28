@@ -66,15 +66,21 @@
 	transform: translateY(20px);
 	transition: transform 0.25s;
 }
+
+.btn {
+	pointer-events: none;
+}
+
 .image-overlay:hover > * {
 	transform: translateY(0);
+	pointer-events: auto;
 }
 
 .image-title {
 	font-size: 5rem;
 	color: rgb(135, 102, 233);
 	font-weight: bold;
-  text-align: center;
+	text-align: center;
 }
 
 .image-description {
