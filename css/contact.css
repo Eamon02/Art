@@ -1,55 +1,76 @@
+/* GLOBAL RULES */
+a .fa-instagram:hover,
+.fa-github:hover,
+.fa-linkedin:hover {
+	color: rgb(135, 102, 233);
+}
+
 @media (orientation: landscape) {
-  .all{
-    display: flex;
-  }
-  .contactInfo {
-    width: 200%;
-    height: 90vh;
-    background: url(/Art/Photos/profilePic.PNG);
-    background-size: cover;
-    background-position: center;
-  }
-  .row1{
-    justify-content: center;
-    display: flex;
-    
-  }
-  .fa-instagram, .fa-github { 
-      font-size: 4em;
-      margin: 2rem; 
-    }
+	.all {
+		display: flex;
+	}
+	.contactInfo {
+		width: 200%;
+		height: 90vh;
+		background: url(../Photos/profilePic.PNG);
+		background-size: cover;
+		background-position: center;
+	}
+	.row1 {
+		justify-content: center;
+		display: flex;
+	}
+	.portrait {
+		display: none;
+	}
+
+	a .fa-instagram,
+	.fa-github,
+	.fa-linkedin {
+		color: white;
+		font-size: 4em;
+		margin: 2rem;
+		cursor: pointer;
+	}
 }
 
 @media (orientation: portrait) {
-  .contactInfo {
-    display: flex;
+	.contactInfo {
+		display: flex;
+		justify-content: center;
+		background: url(../Photos/profilePic.PNG);
+
+		/* width: 100vw; */
+		height: 420;
+		height: 70vh;
+		/* align-items: flex-end; */
+		background-size: cover;
+	}
+	.row1 {
+		/* position:absolute; */
+		display: flex;
+	}
+	.about h1 {
+		margin: 5px;
+		padding: 10px;
+	}
+	.landscape {
+		display: none;
+	}
+
+	.fa-instagram,
+	.fa-github,
+	.fa-linkedin {
+		color: white;
+		font-size: 4em;
+		cursor: pointer;
+	}
+	.mobile-icons{
+    position: relative;
     justify-content: center;
-    background: url(/Art/Photos/profilePic.PNG);
-    
-    /* width: 100vw; */
-    height: 420;
-      height: 70vh;
-      /* align-items: flex-end; */
-      background-size: cover;
-    
-  }
-  .row1{
-    /* position:absolute; */
-    display: flex;
-    
-  }
-  .fa-instagram, .fa-github { 
-      font-size: 4em;
-      margin: 2rem; 
-    }
-  .about h1 {
-  margin: 5px;
-  padding: 10px;
   }
 }
 
-Global Rules
-#about {
-  margin: 20px;
+Global Rules #about {
+	margin: 20px;
 }
-

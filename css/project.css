@@ -68,7 +68,7 @@
 }
 
 .btn {
-	pointer-events: none;
+	/* pointer-events: none; */
 }
 
 .image-overlay:hover > * {

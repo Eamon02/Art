@@ -113,7 +113,7 @@ a:hover {
 		justify-content: space-evenly;
 		clip-path: circle(100px at 50% -20%);
 		-webkit-clip-path: circle(100px at 50% -20%);
-		transition: all 0.75s ease-out;
+		transition: all 0.5s ease-out;
 		pointer-events: none;
 	}
 	.nav-links.open {
@@ -184,4 +184,16 @@ a:hover {
 /* Blur */
 .blur {
 	backdrop-filter: blur(5px);
+}
+
+a.nostyle:link {
+	text-decoration: inherit;
+	color: inherit;
+	cursor: auto;
+}
+
+a.nostyle:visited {
+	text-decoration: inherit;
+	color: inherit;
+	cursor: auto;
 }
