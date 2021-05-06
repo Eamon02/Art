@@ -48,7 +48,7 @@ a .fa-instagram:hover,
 	}
 	.row1 {
 		/* position:absolute; */
-		display: flex;
+		/* display: flex; */
 	}
 	.about h1 {
 		margin: 5px;
@@ -64,13 +64,41 @@ a .fa-instagram:hover,
 		color: white;
 		font-size: 4em;
 		cursor: pointer;
+		margin: 1rem;
 	}
-	.mobile-icons{
-    position: relative;
-    justify-content: center;
-  }
+	.mobile-icons {
+		position: relative;
+		justify-content: space-between;
+		text-align: center;
+	}
 }
 
 Global Rules #about {
 	margin: 20px;
+}
+
+p {
+}
+p span {
+	color: rgb(135, 102, 233);
+}
+
+.aboutme {
+	display: block;
+	margin: 1rem;
+}
+.skills {
+	padding: 1rem;
+	background: rgb(135, 102, 233);
+	text-align: center;
+}
+.skills ul {
+	/* display: inline-table; */
+	/* text-decoration: none; */
+}
+.skills ul li {
+	/* display: flex; */
+}
+.email-num {
+	text-align: center;
 }
