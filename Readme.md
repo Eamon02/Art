@@ -3,7 +3,6 @@
 This is my portfolio I designed by myself to both demostrate my skills. This was built using HTML, CSS, javaScript, jQuery, Anime.js and Letterize.js.
 
 ## [Check it out!](https://eamon02.github.io/Art/)
-----
 ## ![Demo](./Photos/PortfolioMain.gif)
 ---
 ## Sources & Inspiration
