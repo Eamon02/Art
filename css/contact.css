@@ -12,7 +12,7 @@ a .fa-instagram:hover,
 	.contactInfo {
 		width: 200%;
 		height: 90vh;
-		background: url(../Photos/profilePic.PNG);
+		background: url(../Photos/linkedinHeadshot.jpg);
 		background-size: cover;
 		background-position: center;
 	}
