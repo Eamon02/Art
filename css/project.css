@@ -6,14 +6,6 @@
 	}
 }
 
-@media (orientation: portrait) {
-	.projects {
-		margin: 1%;
-		display: grid;
-		grid-template-columns: 1fr;
-	}
-}
-
 /* Global Rules */
 .projects {
 	z-index: auto;
@@ -89,8 +81,19 @@
 	text-align: center;
 	padding: 0px 10px 10px 10px;
 }
-.image-skills{
+.image-skills {
 	/* margin-top: 0.25em; */
 	text-align: center;
 	padding: 0px 20px 10px 20px;
+}
+
+@media (orientation: portrait) {
+	.projects {
+		margin: 1%;
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	.image-overlay {
+		opacity: 1;
+	}
 }
